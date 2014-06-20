@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Chess Game</title>
+    <meta charset=U TF-8>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="JS/drag&drop.js"></script>
+    <script type="text/javascript" src="JS/main.js"></script>
+
+</head>
+
+<body>
+    <section>
+        <div id="board">
+            <div class="row1">
+                <div class="square white" id="a8" ondrop="drop(event)" ondragover="allowDrop(event)"><p id="bR1" draggable="true" ondragstart="drag(event)">&#9820</p></div>
+                <div class="square black" id="b8" ondrop="drop(event)" ondragover="allowDrop(event)"><p id="bN1" draggable="true" ondragstart="drag(event)">&#9822</p></div>
+                <div class="square white" id="c8" ondrop="drop(event)" ondragover="allowDrop(event)"><p id="bB1" draggable="true" ondragstart="drag(event)">&#9821</p></div>
+                <div class="square black" id="d8" ondrop="drop(event)" ondragover="allowDrop(event)"><p id="bQ" draggable="true" ondragstart="drag(event)">&#9819</p></div>
+                <div class="square white" id="e8" ondrop="drop(event)" ondragover="allowDrop(event)"><p id="bK" draggable="true" ondragstart="drag(event)">&#9818</p></div>
+                <div class="square black" id="f8" ondrop="drop(event)" ondragover="allowDrop(event)"><p id="bB2" draggable="true" ondragstart="drag(event)">&#9821</p></div>
+                <div class="square white" id="g8" ondrop="drop(event)" ondragover="allowDrop(event)"><p id="bN2" draggable="true" ondragstart="drag(event)">&#9822</p></div>
+                <div class="square black" id="h8" ondrop="drop(event)" ondragover="allowDrop(event)"><p id="bR2" draggable="true" ondragstart="drag(event)">&#9820</p></div>
+            </div>
+
+            <div class="row2">
+                <div class="square black" id="a7" ondrop="drop(event)" ondragover="allowDrop(event)"><p id="bP1" draggable="true" ondragstart="drag(event)">&#9823</p></div>
+                <div class="square white" id="b7" ondrop="drop(event)" ondragover="allowDrop(event)"><p id="bP2" draggable="true" ondragstart="drag(event)">&#9823</p></div>
+                <div class="square black" id="c7" ondrop="drop(event)" ondragover="allowDrop(event)"><p id="bP3" draggable="true" ondragstart="drag(event)">&#9823</p></div>
+                <div class="square white" id="d7" ondrop="drop(event)" ondragover="allowDrop(event)"><p id="bP4" draggable="true" ondragstart="drag(event)">&#9823</p></div>
+                <div class="square black" id="e7" ondrop="drop(event)" ondragover="allowDrop(event)"><p id="bP5" draggable="true" ondragstart="drag(event)">&#9823</p></div>
+                <div class="square white" id="f7" ondrop="drop(event)" ondragover="allowDrop(event)"><p id="bP6" draggable="true" ondragstart="drag(event)">&#9823</p></div>
+                <div class="square black" id="g7" ondrop="drop(event)" ondragover="allowDrop(event)"><p id="bP7" draggable="true" ondragstart="drag(event)">&#9823</p></div>
+                <div class="square white" id="h7" ondrop="drop(event)" ondragover="allowDrop(event)"><p id="bP8" draggable="true" ondragstart="drag(event)">&#9823</p></div>
+            </div>
+
+            <div class="row3">
+                <div class="square white" id="a6" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                <div class="square black" id="b6" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                <div class="square white" id="c6" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                <div class="square black" id="d6" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                <div class="square white" id="e6" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                <div class="square black" id="f6" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                <div class="square white" id="g6" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                <div class="square black" id="h6" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            </div>
+
+            <div class="row4">
+                <div class="square black" id="a5" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                <div class="square white" id="b5" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                <div class="square black" id="c5" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                <div class="square white" id="d5" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                <div class="square black" id="e5" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                <div class="square white" id="f5" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                <div class="square black" id="g5" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                <div class="square white" id="h5" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            </div>
+
+            <div class="row5">
+                <div class="square white" id="a4" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                <div class="square black" id="b4" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                <div class="square white" id="c4" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                <div class="square black" id="d4" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                <div class="square white" id="e4" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                <div class="square black" id="f4" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                <div class="square white" id="g4" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                <div class="square black" id="h4" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            </div>
+
+            <div class="row6">
+                <div class="square black" id="a3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                <div class="square white" id="b3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                <div class="square black" id="c3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                <div class="square white" id="d3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                <div class="square black" id="e3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                <div class="square white" id="f3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                <div class="square black" id="g3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                <div class="square white" id="h3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            </div>
+
+            <div class="row7">
+                <div class="square white" id="a2" ondrop="drop(event)" ondragover="allowDrop(event)"><p id="wP1" draggable="true" ondragstart="drag(event)">&#9817</p></div>
+                <div class="square black" id="b2" ondrop="drop(event)" ondragover="allowDrop(event)"><p id="wP2" draggable="true" ondragstart="drag(event)">&#9817</p></div>
+                <div class="square white" id="c2" ondrop="drop(event)" ondragover="allowDrop(event)"><p id="wP3" draggable="true" ondragstart="drag(event)">&#9817</p></div>
+                <div class="square black" id="d2" ondrop="drop(event)" ondragover="allowDrop(event)"><p id="wP4" draggable="true" ondragstart="drag(event)">&#9817</p></div>
+                <div class="square white" id="e2" ondrop="drop(event)" ondragover="allowDrop(event)"><p id="wP5" draggable="true" ondragstart="drag(event)">&#9817</p></div>
+                <div class="square black" id="f2" ondrop="drop(event)" ondragover="allowDrop(event)"><p id="wP6" draggable="true" ondragstart="drag(event)">&#9817</p></div>
+                <div class="square white" id="g2" ondrop="drop(event)" ondragover="allowDrop(event)"><p id="wP7" draggable="true" ondragstart="drag(event)">&#9817</p></div>
+                <div class="square black" id="h2" ondrop="drop(event)" ondragover="allowDrop(event)"><p id="wP8" draggable="true" ondragstart="drag(event)">&#9817</p></div>
+            </div>
+
+            <div class="row8">
+                <div class="square black" id="a1" ondrop="drop(event)" ondragover="allowDrop(event)"><p id="wR1" draggable="true" ondragstart="drag(event)">&#9814</p></div>
+                <div class="square white" id="b1" ondrop="drop(event)" ondragover="allowDrop(event)"><p id="wN1" draggable="true" ondragstart="drag(event)">&#9816</p></div>
+                <div class="square black" id="c1" ondrop="drop(event)" ondragover="allowDrop(event)"><p id="wB1" draggable="true" ondragstart="drag(event)">&#9815</p></div>
+                <div class="square white" id="d1" ondrop="drop(event)" ondragover="allowDrop(event)"><p id="wQ" draggable="true" ondragstart="drag(event)">&#9813</p></div>
+                <div class="square black" id="e1" ondrop="drop(event)" ondragover="allowDrop(event)"><p id="wK" draggable="true" ondragstart="drag(event)">&#9812</p></div>
+                <div class="square white" id="f1" ondrop="drop(event)" ondragover="allowDrop(event)"><p id="wB2" draggable="true" ondragstart="drag(event)">&#9815</p></div>
+                <div class="square black" id="g1" ondrop="drop(event)" ondragover="allowDrop(event)"><p id="wN2" draggable="true" ondragstart="drag(event)">&#9816</p></div>
+                <div class="square white" id="h1" ondrop="drop(event)" ondragover="allowDrop(event)"><p id="wR2" draggable="true" ondragstart="drag(event)">&#9814</p></div>
+            </div>
+
+            <section class="left">
+                <ul>
+                    <li>8</li>
+                    <li>7</li>
+                    <li>6</li>
+                    <li>5</li>
+                    <li>4</li>
+                    <li>3</li>
+                    <li>2</li>
+                    <li>1</li>
+                </ul>
+            </section>
+
+            <section class="bottom">
+                <ul>
+                    <li>a</li>
+                    <li>b</li>
+                    <li>c</li>
+                    <li>d</li>
+                    <li>e</li>
+                    <li>f</li>
+                    <li>g</li>
+                    <li>h</li>
+                </ul>
+            </section>
+        </div>
+    </section>
+
+
+</body>
+
+</html>
